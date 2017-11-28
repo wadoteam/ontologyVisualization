@@ -1,0 +1,2695 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.3-SNAPSHOT), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.0.6]",
+  "header": {
+    "baseIris": [
+      "http://www.w3.org/2002/07/owl",
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://www.semanticweb.org/constantin/ontologies/2017/10/wado"
+    ],
+    "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado"
+  },
+  "namespace": [],
+  "metrics": {
+    "classCount": 27,
+    "objectPropertyCount": 12,
+    "datatypePropertyCount": 0,
+    "individualCount": 0
+  },
+  "settings": {
+    "global": {
+      "zoom": 0.613,
+      "translation": [
+        196.35993000000002,
+        118.6155
+      ],
+      "paused": false
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "14",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "18",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "21",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "32",
+      "type": "owl:Class"
+    },
+    {
+      "id": "36",
+      "type": "owl:Class"
+    },
+    {
+      "id": "62",
+      "type": "owl:Class"
+    },
+    {
+      "id": "44",
+      "type": "owl:Class"
+    },
+    {
+      "id": "6",
+      "type": "owl:Class"
+    },
+    {
+      "id": "22",
+      "type": "owl:Class"
+    },
+    {
+      "id": "46",
+      "type": "owl:Class"
+    },
+    {
+      "id": "30",
+      "type": "owl:Class"
+    },
+    {
+      "id": "59",
+      "type": "owl:Class"
+    },
+    {
+      "id": "17",
+      "type": "owl:Class"
+    },
+    {
+      "id": "54",
+      "type": "owl:Class"
+    },
+    {
+      "id": "10",
+      "type": "owl:Class"
+    },
+    {
+      "id": "55",
+      "type": "owl:Class"
+    },
+    {
+      "id": "7",
+      "type": "owl:Class"
+    },
+    {
+      "id": "42",
+      "type": "owl:Class"
+    },
+    {
+      "id": "2",
+      "type": "owl:Class"
+    },
+    {
+      "id": "34",
+      "type": "owl:Class"
+    },
+    {
+      "id": "68",
+      "type": "owl:Class"
+    },
+    {
+      "id": "40",
+      "type": "owl:Class"
+    },
+    {
+      "id": "16",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1",
+      "type": "owl:Class"
+    },
+    {
+      "id": "15",
+      "type": "owl:Class"
+    },
+    {
+      "id": "4",
+      "type": "owl:Class"
+    },
+    {
+      "id": "20",
+      "type": "owl:Class"
+    },
+    {
+      "id": "57",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "111",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "158",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "38",
+      "type": "owl:Class"
+    },
+    {
+      "id": "19",
+      "type": "owl:Class"
+    },
+    {
+      "id": "11",
+      "type": "owl:Class"
+    },
+    {
+      "id": "98",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "99",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "25",
+      "type": "owl:Thing"
+    }
+  ],
+  "classAttribute": [
+    {
+      "instances": 0,
+      "union": [
+        "15",
+        "16",
+        "17"
+      ],
+      "attributes": [
+        "union",
+        "anonymous"
+      ],
+      "id": "14",
+      "pos": [
+        850.6772942937331,
+        449.15882918197843
+      ]
+    },
+    {
+      "instances": 0,
+      "union": [
+        "19",
+        "20"
+      ],
+      "attributes": [
+        "union",
+        "anonymous"
+      ],
+      "id": "18",
+      "pos": [
+        1225.6085604467971,
+        641.0467333578267
+      ]
+    },
+    {
+      "instances": 0,
+      "union": [
+        "15",
+        "22",
+        "17"
+      ],
+      "attributes": [
+        "union",
+        "anonymous"
+      ],
+      "id": "21",
+      "pos": [
+        785.1758665283126,
+        193.8954391822656
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#SDK",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "instances": 0,
+      "label": {
+        "IRI-based": "SDK"
+      },
+      "id": "32",
+      "pos": [
+        -779.969538730416,
+        796.4382201572271
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#VirtualMachine",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "instances": 0,
+      "label": {
+        "IRI-based": "VirtualMachine"
+      },
+      "id": "36",
+      "pos": [
+        -392.7004659479478,
+        479.7223679161713
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#Level",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Level"
+      },
+      "subClasses": [
+        "10",
+        "11"
+      ],
+      "id": "62",
+      "pos": [
+        -0.5541052684782874,
+        143.89698364128324
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#Functional",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Functional"
+      },
+      "id": "44",
+      "superClasses": [
+        "42"
+      ],
+      "pos": [
+        586.744953034387,
+        -472.05837209254145
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#Browser",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Browser"
+      },
+      "id": "6",
+      "pos": [
+        1301.49096302233,
+        1294.784605363523
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#DevelopmentEnviroment",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "instances": 0,
+      "label": {
+        "IRI-based": "DevelopmentEnviroment"
+      },
+      "id": "22",
+      "pos": [
+        1176.5959545521432,
+        215.24013015607338
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#Organization",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Organization"
+      },
+      "id": "46",
+      "pos": [
+        1251.3885272387688,
+        -705.8864064138597
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#Type",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Type"
+      },
+      "subClasses": [
+        "54",
+        "55",
+        "59"
+      ],
+      "id": "30",
+      "pos": [
+        550.1556656559358,
+        813.4072002744209
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#Scripting",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Scripting"
+      },
+      "id": "59",
+      "superClasses": [
+        "30"
+      ],
+      "pos": [
+        718.4346552132004,
+        1157.5425125228387
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#Arhitecture",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Arhitecture"
+      },
+      "id": "17",
+      "pos": [
+        1111.3584641462753,
+        137.48206511982391
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#Interpreted",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Interpreted"
+      },
+      "id": "54",
+      "superClasses": [
+        "30"
+      ],
+      "pos": [
+        521.1378260823601,
+        1194.8210756838284
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#LowLevel",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "instances": 0,
+      "label": {
+        "IRI-based": "LowLevel"
+      },
+      "id": "10",
+      "superClasses": [
+        "62"
+      ],
+      "pos": [
+        -31.03156826330948,
+        -200.1945174088893
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#Compiled",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Compiled"
+      },
+      "id": "55",
+      "superClasses": [
+        "30"
+      ],
+      "pos": [
+        869.913570934554,
+        1003.646413072792
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#IDE",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "instances": 0,
+      "label": {
+        "IRI-based": "IDE"
+      },
+      "id": "7",
+      "pos": [
+        -42.83098624215333,
+        1060.6875877481264
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#Paradigm",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Paradigm"
+      },
+      "subClasses": [
+        "1",
+        "2",
+        "44",
+        "4"
+      ],
+      "id": "42",
+      "pos": [
+        335.3568134302123,
+        -187.3656580483352
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#Iterativ",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Iterativ"
+      },
+      "id": "2",
+      "superClasses": [
+        "42"
+      ],
+      "pos": [
+        224.48784370555836,
+        -559.8863656025601
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#Concept",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Concept"
+      },
+      "id": "34",
+      "pos": [
+        -794.9394148097622,
+        208.5825526192421
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#Algorithm",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Algorithm"
+      },
+      "id": "68",
+      "pos": [
+        1775.229008726833,
+        -246.7457760528178
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#Library",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Library"
+      },
+      "id": "40",
+      "pos": [
+        148.68602728990956,
+        1108.1128924910497
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#Language",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Language"
+      },
+      "id": "16",
+      "pos": [
+        374.77410775327274,
+        344.6596634902348
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#ObjectOriented",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "instances": 0,
+      "label": {
+        "IRI-based": "ObjectOriented"
+      },
+      "id": "1",
+      "superClasses": [
+        "42"
+      ],
+      "pos": [
+        5.648990221165028,
+        -414.87501921490804
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#Framework",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Framework"
+      },
+      "id": "15",
+      "pos": [
+        494.34735175139934,
+        488.23744630854526
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#RuleBased",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "instances": 0,
+      "label": {
+        "IRI-based": "RuleBased"
+      },
+      "id": "4",
+      "superClasses": [
+        "42"
+      ],
+      "pos": [
+        407.7205028872863,
+        -569.8393890056526
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#FrontEnd",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "instances": 0,
+      "label": {
+        "IRI-based": "FrontEnd"
+      },
+      "id": "20",
+      "pos": [
+        1403.7401958523349,
+        961.8506251875881
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "id": "57",
+      "label": {
+        "undefined": "Thing"
+      },
+      "pos": [
+        948.6260680271713,
+        -809.3837529854752
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "id": "111",
+      "label": {
+        "undefined": "Thing"
+      },
+      "pos": [
+        -724.7606224264706,
+        -105.20350973938797
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "id": "158",
+      "label": {
+        "undefined": "Thing"
+      },
+      "pos": [
+        844.8019681365018,
+        -145.29145680367765
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#OperationSystem",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "instances": 0,
+      "label": {
+        "IRI-based": "OperationSystem"
+      },
+      "id": "38",
+      "pos": [
+        -565.1281943316337,
+        653.4108663069441
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#Backend",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Backend"
+      },
+      "id": "19",
+      "pos": [
+        1570.1386745656037,
+        537.4552255956693
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#HighLevel",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "instances": 0,
+      "label": {
+        "IRI-based": "HighLevel"
+      },
+      "id": "11",
+      "superClasses": [
+        "62"
+      ],
+      "pos": [
+        -247.36387087367925,
+        -155.17078622763987
+      ]
+    },
+    {
+      "instances": 0,
+      "union": [
+        "15",
+        "40",
+        "16",
+        "7"
+      ],
+      "attributes": [
+        "union",
+        "anonymous"
+      ],
+      "id": "98",
+      "pos": [
+        143.28081324107592,
+        723.4437016890463
+      ]
+    },
+    {
+      "instances": 0,
+      "union": [
+        "38",
+        "36"
+      ],
+      "attributes": [
+        "union",
+        "anonymous"
+      ],
+      "id": "99",
+      "pos": [
+        -245.3204400443088,
+        801.0254759132482
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "id": "25",
+      "label": {
+        "undefined": "Thing"
+      },
+      "pos": [
+        1437.1447918389797,
+        -308.9459704062324
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "0",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "3",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "5",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "8",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "9",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "12",
+      "type": "owl:allValuesFrom"
+    },
+    {
+      "id": "23",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "24",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "13",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "26",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "29",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "31",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "33",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "35",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "37",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "39",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "41",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "43",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "45",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "47",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "48",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "49",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "50",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "51",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "52",
+      "type": "owl:allValuesFrom"
+    },
+    {
+      "id": "53",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "56",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "58",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "60",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "61",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "63",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "64",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "65",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "66",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "67",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "69",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "70",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "71",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "72",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "73",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "74",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "75",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "76",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "77",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "78",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "79",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "80",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "81",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "82",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "83",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "84",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "85",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "86",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "87",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "88",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "89",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "90",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "91",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "92",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "93",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "94",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "95",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "96",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "97",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "100",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "101",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "102",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "103",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "104",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "105",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "106",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "107",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "108",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "109",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "110",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "112",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "113",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "114",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "115",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "116",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "117",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "118",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "119",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "120",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "121",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "122",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "123",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "27",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "124",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "125",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "126",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "127",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "128",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "129",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "130",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "131",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "132",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "133",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "134",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "135",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "136",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "137",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "138",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "139",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "140",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "141",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "142",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "143",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "144",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "145",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "146",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "147",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "148",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "149",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "150",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "151",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "152",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "153",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "154",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "155",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "156",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "157",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "159",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "160",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "161",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "162",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "163",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "164",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "165",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "166",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "167",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "168",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "169",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "170",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "171",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "172",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "173",
+      "type": "owl:disjointWith"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "range": "2",
+      "domain": "1",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "0"
+    },
+    {
+      "range": "4",
+      "domain": "2",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "3"
+    },
+    {
+      "range": "7",
+      "domain": "6",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "5"
+    },
+    {
+      "range": "4",
+      "domain": "1",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "8"
+    },
+    {
+      "range": "11",
+      "domain": "10",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "9"
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#has",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "range": "11",
+      "label": {
+        "IRI-based": "has"
+      },
+      "superproperty": [
+        "13"
+      ],
+      "domain": "1",
+      "attributes": [
+        "allValues",
+        "object"
+      ],
+      "id": "12",
+      "pos": [
+        -120.8574403262571,
+        -285.02290272127397
+      ]
+    },
+    {
+      "range": "20",
+      "domain": "6",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "23"
+    },
+    {
+      "range": "6",
+      "domain": "15",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "24"
+    },
+    {
+      "iri": "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "baseIri": "http://www.w3.org/2002/07/owl",
+      "range": "25",
+      "label": {
+        "IRI-based": "topObjectProperty"
+      },
+      "domain": "25",
+      "subproperty": [
+        "26",
+        "27",
+        "28"
+      ],
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "id": "13",
+      "pos": [
+        1541.4986203144713,
+        -325.9637287063939
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#ownBy",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "range": "25",
+      "label": {
+        "IRI-based": "ownBy"
+      },
+      "superproperty": [
+        "13"
+      ],
+      "domain": "25",
+      "attributes": [
+        "inverse functional",
+        "object"
+      ],
+      "id": "26",
+      "pos": [
+        1090.5448991540527,
+        -760.8697381091725
+      ]
+    },
+    {
+      "range": "19",
+      "domain": "30",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "29"
+    },
+    {
+      "range": "32",
+      "domain": "19",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "31"
+    },
+    {
+      "range": "6",
+      "domain": "34",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "33"
+    },
+    {
+      "range": "19",
+      "domain": "36",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "35"
+    },
+    {
+      "range": "38",
+      "domain": "19",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "37"
+    },
+    {
+      "range": "40",
+      "domain": "19",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "39"
+    },
+    {
+      "range": "19",
+      "domain": "42",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "41"
+    },
+    {
+      "range": "44",
+      "domain": "1",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "43"
+    },
+    {
+      "range": "19",
+      "domain": "46",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "45"
+    },
+    {
+      "range": "4",
+      "domain": "44",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "47"
+    },
+    {
+      "range": "36",
+      "domain": "42",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "48"
+    },
+    {
+      "range": "32",
+      "domain": "30",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "49"
+    },
+    {
+      "range": "32",
+      "domain": "36",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "50"
+    },
+    {
+      "range": "36",
+      "domain": "30",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "51"
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#belongsTo",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "range": "20",
+      "label": {
+        "IRI-based": "belongsTo"
+      },
+      "domain": "6",
+      "attributes": [
+        "allValues",
+        "inverse functional",
+        "object"
+      ],
+      "id": "52",
+      "pos": [
+        1352.6155794373324,
+        1128.3176152755555
+      ]
+    },
+    {
+      "range": "55",
+      "domain": "54",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "53"
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#isOwnBy",
+      "inverse": "26",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "range": "46",
+      "label": {
+        "IRI-based": "isOwnBy"
+      },
+      "domain": "57",
+      "attributes": [
+        "inverse functional",
+        "object"
+      ],
+      "id": "56"
+    },
+    {
+      "range": "59",
+      "domain": "55",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "58"
+    },
+    {
+      "range": "59",
+      "domain": "54",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "60"
+    },
+    {
+      "range": "44",
+      "domain": "2",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "61"
+    },
+    {
+      "range": "7",
+      "domain": "19",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "63"
+    },
+    {
+      "range": "19",
+      "domain": "20",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "64"
+    },
+    {
+      "range": "19",
+      "domain": "62",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "65"
+    },
+    {
+      "range": "19",
+      "domain": "6",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "66"
+    },
+    {
+      "range": "68",
+      "domain": "36",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "67"
+    },
+    {
+      "range": "19",
+      "domain": "15",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "69"
+    },
+    {
+      "range": "19",
+      "domain": "34",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "70"
+    },
+    {
+      "range": "68",
+      "domain": "42",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "71"
+    },
+    {
+      "range": "36",
+      "domain": "46",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "72"
+    },
+    {
+      "range": "46",
+      "domain": "30",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "73"
+    },
+    {
+      "range": "68",
+      "domain": "30",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "74"
+    },
+    {
+      "range": "32",
+      "domain": "68",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "75"
+    },
+    {
+      "range": "32",
+      "domain": "42",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "76"
+    },
+    {
+      "range": "42",
+      "domain": "30",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "77"
+    },
+    {
+      "range": "20",
+      "domain": "15",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "78"
+    },
+    {
+      "range": "15",
+      "domain": "62",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "79"
+    },
+    {
+      "range": "7",
+      "domain": "15",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "80"
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#belongsTo",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "range": "18",
+      "label": {
+        "IRI-based": "belongsTo"
+      },
+      "domain": "14",
+      "attributes": [
+        "inverse functional",
+        "object"
+      ],
+      "id": "81",
+      "pos": [
+        1038.1429273702652,
+        545.1027812699026
+      ]
+    },
+    {
+      "range": "32",
+      "domain": "34",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "82"
+    },
+    {
+      "range": "34",
+      "domain": "42",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "83"
+    },
+    {
+      "range": "36",
+      "domain": "34",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "84"
+    },
+    {
+      "range": "34",
+      "domain": "30",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "85"
+    },
+    {
+      "range": "40",
+      "domain": "34",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "86"
+    },
+    {
+      "range": "34",
+      "domain": "62",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "87"
+    },
+    {
+      "range": "34",
+      "domain": "46",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "88"
+    },
+    {
+      "range": "38",
+      "domain": "34",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "89"
+    },
+    {
+      "range": "7",
+      "domain": "34",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "90"
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#hasLevel",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "range": "62",
+      "label": {
+        "IRI-based": "hasLevel"
+      },
+      "domain": "16",
+      "attributes": [
+        "object"
+      ],
+      "id": "91",
+      "pos": [
+        187.11000124239723,
+        244.278323565759
+      ]
+    },
+    {
+      "range": "20",
+      "domain": "34",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "92"
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#hasType",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "range": "30",
+      "label": {
+        "IRI-based": "hasType"
+      },
+      "domain": "16",
+      "attributes": [
+        "object"
+      ],
+      "id": "93",
+      "pos": [
+        462.4648867046042,
+        579.0334318823278
+      ]
+    },
+    {
+      "range": "15",
+      "domain": "34",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "94"
+    },
+    {
+      "range": "32",
+      "domain": "6",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "95"
+    },
+    {
+      "range": "6",
+      "domain": "42",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "96"
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#runsOn",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "range": "99",
+      "label": {
+        "IRI-based": "runsOn"
+      },
+      "domain": "98",
+      "attributes": [
+        "object"
+      ],
+      "id": "97",
+      "pos": [
+        -51.019813401616446,
+        762.2345888011473
+      ]
+    },
+    {
+      "range": "36",
+      "domain": "6",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "100"
+    },
+    {
+      "range": "6",
+      "domain": "30",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "101"
+    },
+    {
+      "range": "40",
+      "domain": "6",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "102"
+    },
+    {
+      "range": "6",
+      "domain": "62",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "103"
+    },
+    {
+      "range": "6",
+      "domain": "46",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "104"
+    },
+    {
+      "range": "38",
+      "domain": "6",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "105"
+    },
+    {
+      "range": "7",
+      "domain": "46",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "106"
+    },
+    {
+      "range": "38",
+      "domain": "7",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "107"
+    },
+    {
+      "range": "32",
+      "domain": "7",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "108"
+    },
+    {
+      "range": "7",
+      "domain": "42",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "109"
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#hasConcept",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "range": "34",
+      "label": {
+        "IRI-based": "hasConcept"
+      },
+      "domain": "111",
+      "attributes": [
+        "object"
+      ],
+      "id": "110",
+      "pos": [
+        -757.6674222066808,
+        41.93061407768673
+      ]
+    },
+    {
+      "range": "40",
+      "domain": "7",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "112"
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#hasParadigm",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "range": "42",
+      "label": {
+        "IRI-based": "hasParadigm"
+      },
+      "domain": "16",
+      "attributes": [
+        "inverse functional",
+        "object"
+      ],
+      "id": "113",
+      "pos": [
+        355.0654605917425,
+        78.64700272094979
+      ]
+    },
+    {
+      "range": "7",
+      "domain": "62",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "114"
+    },
+    {
+      "range": "20",
+      "domain": "36",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "115"
+    },
+    {
+      "range": "20",
+      "domain": "42",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "116"
+    },
+    {
+      "range": "20",
+      "domain": "46",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "117"
+    },
+    {
+      "range": "20",
+      "domain": "30",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "118"
+    },
+    {
+      "range": "32",
+      "domain": "20",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "119"
+    },
+    {
+      "range": "20",
+      "domain": "62",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "120"
+    },
+    {
+      "range": "7",
+      "domain": "20",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "121"
+    },
+    {
+      "range": "38",
+      "domain": "20",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "122"
+    },
+    {
+      "range": "40",
+      "domain": "20",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "123"
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#useVirtualMachine",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "range": "25",
+      "label": {
+        "IRI-based": "useVirtualMachine"
+      },
+      "superproperty": [
+        "13"
+      ],
+      "domain": "25",
+      "attributes": [
+        "object"
+      ],
+      "id": "27",
+      "pos": [
+        1451.2636217338527,
+        -202.68642747162946
+      ]
+    },
+    {
+      "range": "15",
+      "domain": "30",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "124"
+    },
+    {
+      "range": "32",
+      "domain": "15",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "125"
+    },
+    {
+      "range": "36",
+      "domain": "15",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "126"
+    },
+    {
+      "range": "38",
+      "domain": "15",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "127"
+    },
+    {
+      "range": "40",
+      "domain": "15",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "128"
+    },
+    {
+      "range": "15",
+      "domain": "42",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "129"
+    },
+    {
+      "range": "15",
+      "domain": "46",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "130"
+    },
+    {
+      "range": "38",
+      "domain": "36",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "131"
+    },
+    {
+      "range": "42",
+      "domain": "4",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "132",
+      "pos": [
+        371.5386581587493,
+        -378.6025235269939
+      ]
+    },
+    {
+      "range": "38",
+      "domain": "30",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "133"
+    },
+    {
+      "range": "32",
+      "domain": "46",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "134"
+    },
+    {
+      "range": "42",
+      "domain": "46",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "135"
+    },
+    {
+      "range": "38",
+      "domain": "46",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "136"
+    },
+    {
+      "range": "32",
+      "domain": "38",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "137"
+    },
+    {
+      "range": "38",
+      "domain": "42",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "138"
+    },
+    {
+      "range": "68",
+      "domain": "34",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "139"
+    },
+    {
+      "range": "68",
+      "domain": "15",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "140"
+    },
+    {
+      "range": "68",
+      "domain": "20",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "141"
+    },
+    {
+      "range": "7",
+      "domain": "68",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "142"
+    },
+    {
+      "range": "68",
+      "domain": "62",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "143"
+    },
+    {
+      "range": "40",
+      "domain": "68",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "144"
+    },
+    {
+      "range": "38",
+      "domain": "68",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "145"
+    },
+    {
+      "range": "68",
+      "domain": "46",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "146"
+    },
+    {
+      "range": "19",
+      "domain": "68",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "147"
+    },
+    {
+      "range": "68",
+      "domain": "6",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "148"
+    },
+    {
+      "range": "32",
+      "domain": "40",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "149"
+    },
+    {
+      "range": "30",
+      "domain": "59",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "150",
+      "pos": [
+        634.2951604345681,
+        985.4748563986299
+      ]
+    },
+    {
+      "range": "40",
+      "domain": "42",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "151"
+    },
+    {
+      "range": "42",
+      "domain": "1",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "152",
+      "pos": [
+        170.50290182568867,
+        -301.1203386316216
+      ]
+    },
+    {
+      "range": "40",
+      "domain": "36",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "153"
+    },
+    {
+      "range": "42",
+      "domain": "2",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "154",
+      "pos": [
+        279.9223285678853,
+        -373.6260118254477
+      ]
+    },
+    {
+      "range": "40",
+      "domain": "30",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "155"
+    },
+    {
+      "range": "42",
+      "domain": "44",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "156",
+      "pos": [
+        461.0508832322996,
+        -329.7120150704383
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado#isUsedIn",
+      "baseIri": "http://www.semanticweb.org/constantin/ontologies/2017/10/wado",
+      "range": "21",
+      "label": {
+        "IRI-based": "isUsedIn"
+      },
+      "domain": "158",
+      "attributes": [
+        "object"
+      ],
+      "id": "157",
+      "pos": [
+        816.7202819485527,
+        14.45301273638023
+      ]
+    },
+    {
+      "range": "36",
+      "domain": "62",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "159"
+    },
+    {
+      "range": "30",
+      "domain": "62",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "160"
+    },
+    {
+      "range": "40",
+      "domain": "46",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "161"
+    },
+    {
+      "range": "38",
+      "domain": "40",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "162"
+    },
+    {
+      "range": "62",
+      "domain": "10",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "163",
+      "pos": [
+        -15.792836765893885,
+        -28.148766883803034
+      ]
+    },
+    {
+      "range": "62",
+      "domain": "11",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "164",
+      "pos": [
+        -123.95898807107876,
+        -5.636901293178312
+      ]
+    },
+    {
+      "range": "30",
+      "domain": "54",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "165",
+      "pos": [
+        535.6467458691479,
+        1004.1141379791247
+      ]
+    },
+    {
+      "range": "32",
+      "domain": "62",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "166"
+    },
+    {
+      "range": "30",
+      "domain": "55",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "167",
+      "pos": [
+        710.0346182952449,
+        908.5268066736064
+      ]
+    },
+    {
+      "range": "42",
+      "domain": "62",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "168"
+    },
+    {
+      "range": "46",
+      "domain": "62",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "169"
+    },
+    {
+      "range": "7",
+      "domain": "36",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "170"
+    },
+    {
+      "range": "7",
+      "domain": "30",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "171"
+    },
+    {
+      "range": "38",
+      "domain": "62",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "172"
+    },
+    {
+      "range": "40",
+      "domain": "62",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "173"
+    }
+  ]
+}
